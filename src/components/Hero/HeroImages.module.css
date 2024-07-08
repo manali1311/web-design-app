@@ -1,0 +1,83 @@
+.heroImages {
+  display: flex;
+  gap: 20px;
+}
+
+.leftColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainImage {
+  width: 193px;
+  height: 193px;
+  object-fit: cover;
+}
+
+.secondaryImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  align-self: flex-end;
+  margin-top: 51px;
+}
+
+.tertiaryImage {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  margin-top: 38px;
+}
+
+.topRow,
+.bottomRow {
+  display: flex;
+  gap: 20px;
+}
+
+.smallImage {
+  width: 67px;
+  height: 67px;
+  object-fit: cover;
+  align-self: flex-end;
+  margin-top: 30px;
+}
+
+.mediumImage {
+  width: 93px;
+  height: 93px;
+  object-fit: cover;
+}
+
+.imageStack {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  margin-top: 30px;
+}
+
+.stackImage {
+  width: 166px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.largeImage {
+  width: 146px;
+  height: 146px;
+  object-fit: cover;
+  margin: auto 0;
+}
+
+@media (max-width: 991px) {
+  .heroImages {
+    flex-wrap: wrap;
+  }
+
+  .secondaryImage,
+  .tertiaryImage,
+  .smallImage {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,61 @@
+.ctaSection {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.ctaCard {
+  flex: 1;
+  border-radius: 20px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.ctaCard:first-child {
+  background-color: #2b2e33;
+}
+
+.ctaCard:last-child {
+  background-color: #11b2a8;
+}
+
+.ctaTitle {
+  font-size: 32px;
+  font-weight: 950;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.ctaLink {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 950;
+  color: #fff;
+  text-decoration: none;
+}
+
+.arrowIcon {
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}

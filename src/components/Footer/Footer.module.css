@@ -1,0 +1,65 @@
+.footer {
+  background-color: #f5f8ff;
+  padding: 80px 0 40px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.logoSection {
+  max-width: 300px;
+}
+
+.companyDescription {
+  font-size: 18px;
+  color: #282c3f;
+  margin: 20px 0;
+}
+
+.appStores {
+  display: flex;
+  gap: 16px;
+}
+
+.appStoreIcon {
+  height: 40px;
+  width: auto;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #555770;
+}
+
+@media (max-width: 991px) {
+  .topSection {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .logoSection {
+    max-width: 100%;
+  }
+
+  .bottomSection {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+.footerNavigation {
+  display: flex;
+  gap: 60px;
+}
+
+.navSection {
+  min-width: 120px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #212a34;
+  margin-bottom: 20px;
+}
+
+.linkList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  font-size: 16px;
+  color: #555770;
+  text-decoration: none;
+  line-height: 2;
+}
+
+.link:hover {
+  color: #11b2a8;
+}
+
+@media (max-width: 768px) {
+  .footerNavigation {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

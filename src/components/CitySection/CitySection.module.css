@@ -1,0 +1,53 @@
+.citySection {
+  padding: 100px 0;
+  background-color: #f5f8ff;
+}
+
+.container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.content {
+  flex: 1;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #282c3f;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.subtitle {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #212a34;
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: #11b2a8;
+}
+
+.mapContainer {
+  flex: 1;
+}
+
+.mapImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}

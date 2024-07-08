@@ -1,0 +1,87 @@
+.newsletterSection {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sectionTitle {
+  font-size: 44px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #212a34;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #11b2a8;
+}
+
+.description {
+  font-size: 18px;
+  color: #282c3f;
+  margin-bottom: 40px;
+}
+
+.subscribeForm {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.inputWrapper {
+  position: relative;
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.emailInput {
+  width: 100%;
+  padding: 16px;
+  border: 4px solid #11b2a8;
+  border-radius: 12px;
+  font-size: 16px;
+}
+
+.submitButton {
+  padding: 16px 32px;
+  background-color: #11b2a8;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 950;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .subscribeForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputWrapper {
+    width: 100%;
+  }
+
+  .submitButton {
+    width: 100%;
+    max-width: 400px;
+  }
+}

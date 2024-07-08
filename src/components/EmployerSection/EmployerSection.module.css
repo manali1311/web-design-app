@@ -1,0 +1,83 @@
+.employerSection {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.content {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.title {
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+  color: #212a34;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: #11b2a8;
+}
+
+.featureList {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  font-size: 18px;
+  color: #282c3f;
+}
+
+.featureIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 16px;
+}
+
+.learnMoreLink {
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 950;
+  color: #212a34;
+  text-decoration: none;
+}
+
+.arrowIcon {
+  width: 23px;
+  height: 23px;
+  margin-left: 8px;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .content {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+}

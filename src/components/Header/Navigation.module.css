@@ -1,0 +1,25 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navItem {
+  color: #212a34;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Neue Haas Unica", -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.divider {
+  width: 1px;
+  height: 24px;
+  background-color: #212a34;
+}
+
+@media (max-width: 991px) {
+  .navigation {
+    flex-wrap: wrap;
+  }
+}
